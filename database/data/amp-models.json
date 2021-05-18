@@ -1,0 +1,62 @@
+[
+    {
+        "ampName": "1959SLP Super Lead Reissue",
+        "name": "1959SLP",
+        "description": "Models of a 100 watt Super Lead Plexi Reissue.",
+        "tips": "Cliff's settings for a 'typical' plexi tone are bass 2, mid 8, treble 7.5, adjust presence to taste. Or, just crank everything - that's what Eddie Van Halen did!",
+        "speakerCab": "4x12 Marshall cabinet with Celestion G12M (greenbacks) or G12H speakers",
+        "stockCabs": "Marshall cabs",
+        "ampControls": "Presence, Bass, Middle, Treble, and Volume (=Drive)",
+        "yekThought": null,
+        "cliffThought": "Don't be afraid to turn the bass all the way down and the treble all the way up, just like with the actual amp. For example, on the normal channel of a plexi most people turn the bass all the way down. Otherwise, it's too flubby.",
+        "highlightText": "which, according to Marshall, is \"truly the sound of rock\"."
+    },
+    {
+        "ampName": "1987X Reissue",
+        "name": "1987X",
+        "description": "Models of a JMP 50 reissue: a 50w plexi. More aggressive than the '60s plexis, the 1987x is much more of the '72 period with a heavy, sweet/aggressive tone.",
+        "tips": "The 1987X is bass heavy so don't hesitate to turn it down!",
+        "speakerCab": "4x12 Marshall cabinet with Celestion G12M (greenbacks) or G12H speakers",
+        "stockCabs": "Marshall cabs",
+        "ampControls": "Presence, Bass, Middle, Treble, and Volume (=Drive)",
+        "yekThought": "The 1987X sounds and feels really juicy. It's a very versatile amp that can handle anything between funk and hard rock.",
+        "cliffThought": "The 1987X doesn't have the 0.68uF cap on the last triode which gives it a smoother distortion.",
+        "highlightText": "an amp that defines classic rock tone. Raw, unrefined, honest, and touch-sensitive."
+    },
+    {
+        "ampName": "5150-III",
+        "name": "5153",
+        "description": "Models of all channels of Eddie Van Halen's signature amp, popular with high gain players.",
+        "tips": "The blue channel of the 50 watt amp has about twice the gain compared to the 100 watt's Blue channel. You can simulate this with the Input Trim knob.",
+        "speakerCab": "EVH 4x12 or 2x12 cabinet with Celestion G12EVH speakers",
+        "stockCabs": "4x12 5153 - Cab Packs 5, 12, and 14",
+        "ampControls": "Gain (=Drive), Low, Mid, High, Master, Presence, Resonance (50w model)",
+        "yekThought": null,
+        "cliffThought": "A 5150 uses a fixed bias with no adjustment. Depending on the tubes used, the bias can run from average to cold. The model uses average. Some people like a colder sound. If you prefer your amps biased cold, then reduce the bias parameter to taste.",
+        "highlightText": "a must try if you're into metal, saturated high gain tones, or a ridiculous number of gain stages."
+    },
+    {
+        "ampName": "1959 Tweed Bassman",
+        "name": "59 Bassguy",
+        "description": "Model of a 'holy grail' 1959 Fender Tweed Bassman, the 'grandfather of rock and roll'.",
+        "tips": "Turn middle up and bass down. Or, try bass and treble at 0 with mid and presence at 10.",
+        "speakerCab": "Four 10\" Jensen P10Q or P10R speakers",
+        "stockCabs": "4x10 Bassguy - Cab Packs 1 and 10",
+        "ampControls": "Presence, Bass, Middle, Treble, and Volume (=Drive)",
+        "yekThought": "For some vintage fun, put the Face Fuzz before the amp. Or control the low end of the amp model by engaging a Treble Booster",
+        "cliffThought": null,
+        "highlightText": "which is listed at #4 on Vintage Guitar's list of the 25 most valuable guitar amps."
+    },
+    {
+        "ampName": "Tweed Champ",
+        "name": "5F1 Tweed",
+        "description": "Model of Fender's practice amp from the Tweed era.",
+        "tips": "The original amp only has a volume control, so leave everything else in the model at default for authenticity.",
+        "speakerCab": "Single 6\" or 8\" Alino speaker (Jensen P8T, Oxford 8EV",
+        "stockCabs": "1x8 - Cab Packs 2 and 4",
+        "ampControls": "Volume (=Drive)",
+        "yekThought": "Stick to single coils. The output signal of a humbucker is too strong for the Champ to handle.",
+        "cliffThought": null,
+        "highlightText": "don't let its small size fool you!"
+    }
+]
