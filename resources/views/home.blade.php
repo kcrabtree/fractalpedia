@@ -13,8 +13,8 @@
         <div class="max-w-7xl mt-12 mx-4 lg:mx-auto sm:px-2 lg:px-8 flex flex-col justify-center space-y-12 lg:space-y-0 lg:space-x-12 lg:flex-row ">
             <div class="bg-white shadow-lg rounded-lg lg:w-1/2">
                 <h3 class="text-xl px-4 py-4 font-audiowide">Model of the Day</h3>
-                <div class="flex justify-center mt-3">
-                    <img src="https://wiki.fractalaudio.com/wiki/images/thumb/5/58/AFD.jpg/600px-AFD.jpg" width="50%" height="50%">
+                <div class="flex justify-center my-3 max-h-28">
+                    <img class="object-contain w-3/4 md:w-1/2" src="https://wiki.fractalaudio.com/wiki/images/thumb/5/58/AFD.jpg/600px-AFD.jpg">
                 </div>
                 <p class="py-6 px-5">
                     The BRIT AFS100 1 is today's model of the day! Seeking to recreate the tone of a Marshall AFD100
@@ -25,8 +25,8 @@
 
             <div class="bg-white shadow-lg rounded-lg lg:w-1/2">
                 <h3 class="text-xl px-4 py-4 font-audiowide">Players Choice</h3>
-                <div class="flex justify-center">
-                    <i class="far fa-sad-tear fa-7x place-self-center text-gray-200"></i>
+                <div class="flex justify-center my-3 max-h-28">
+                    <i class="far fa-sad-tear fa-7x object-cover place-self-center text-gray-200"></i>
                 </div>
                 <p class="py-6 px-5">
                     Unfortunately we don't have enough ratings to select an amp model to feature, but you can help!
