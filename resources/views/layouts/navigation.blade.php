@@ -61,7 +61,7 @@
         </div>
 
         {{-- Navigation Links --}}
-        <div class="hidden space-x-8 sm:flex md:pt-2 md:pb-4">
+        <div class="hidden space-x-8 sm:flex md:pt-2 pb-4 md:pb-6">
             <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
                 {{ __('Home') }}
             </x-nav-link>
