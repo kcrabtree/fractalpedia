@@ -10,7 +10,7 @@
             </p>
         </div>
 
-        <div class="max-w-7xl mt-12 mx-4 lg:mx-auto sm:px-2 lg:px-8 flex flex-col justify-center gap-12 lg:flex-row ">
+        <div class="max-w-7xl mt-12 mx-4 lg:mx-auto sm:px-2 lg:px-8 flex flex-col justify-center space-y-12 lg:space-y-0 lg:space-x-12 lg:flex-row ">
             <div class="bg-white shadow-lg rounded-lg lg:w-1/2">
                 <h3 class="text-xl px-4 py-4 font-audiowide">Model of the Day</h3>
                 <div class="flex justify-center mt-3">
