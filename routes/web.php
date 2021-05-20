@@ -30,6 +30,10 @@ Route::get('/tips', function () {
     return view('tips-and-tricks');
 })->name('tips');
 
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
 //Route::get('/dashboard', function () {
 //    return view('dashboard');
 //})->middleware(['guest'])->name('dashboard');

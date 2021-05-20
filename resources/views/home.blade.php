@@ -1,38 +1,18 @@
 <x-app-layout>
-{{--    <x-slot name="header">--}}
-{{--        <h2 class="font-semibold text-xl text-gray-800 leading-tight">--}}
-{{--            {{ __('Home') }}--}}
-{{--        </h2>--}}
-{{--    </x-slot>--}}
-
-    <div class="py-8">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-md sm:rounded-lg">
-                <div class="p-6 space-y-3 bg-white border-b border-gray-200">
-                    <p>
-                        Welcome to FractalPedia, an online supplement for modeling products created by
-                        <a href="https://fractalaudio.com" target="_blank">Fractal Audio Systems</a>.
-                    </p>
-                    <p>
-                        The inspiration for this project came from
-                        <a href="https://wiki.fractalaudio.com/wiki/index.php?title=Yeks_Guide_to_the_Fractal_Audio_Amp_Models" target="_blank">
-                        Yek's Guide to the Fractal Audio Amplifier Models</a>, with the goal of transforming a PDF
-                        that is occasionally updated into a fully-interactive trove of knowledge driven and powered by
-                        Fractal users.
-                    </p>
-                    <p>
-                        While nearly all of the initial content on FractalPedia was repurposed from Yek's guide, I hope
-                        this resource becomes a valuable part of the community and continues to evolve and expand over
-                        time. If you're part of the Fractal family, please consider registering for a free account and
-                        helping us grow!
-                    </p>
-                </div>
-            </div>
+    <div class="mt-1 py-8">
+        <div class="max-w-7xl mx-4 lg:mx-auto sm:px-2 lg:px-8 text-semibold">
+            <p>
+                Welcome to FractalPedia, an interactive reference guide for modeling products created by
+                the wizards at <a href="https://fractalaudio.com" target="_blank" class="inline-link">Fractal Audio Systems</a>.
+            </p>
+            <p class="mt-6">
+                If this is your first time here, please take a moment to <a href="{{route('about')}}" class="inline-link">learn about us.</a>
+            </p>
         </div>
 
-        <div class="max-w-7xl flex mx-auto mb-8 mt-12 sm:px-6 lg:px-8">
-            <div class="w-1/2 bg-white shadow-md sm:rounded-lg mr-12">
-                <p class="py-5 px-5 text-1xl font-audiowide">Model of the Day</p>
+        <div class="max-w-7xl mt-12 mx-4 lg:mx-auto sm:px-2 lg:px-8 flex flex-col justify-center gap-12 lg:flex-row ">
+            <div class="bg-white shadow-lg rounded-lg lg:w-1/2">
+                <h3 class="text-xl px-4 py-4 font-audiowide">Model of the Day</h3>
                 <div class="flex justify-center mt-3">
                     <img src="https://wiki.fractalaudio.com/wiki/images/thumb/5/58/AFD.jpg/600px-AFD.jpg" width="50%" height="50%">
                 </div>
@@ -43,14 +23,14 @@
                 </p>
             </div>
 
-            <div class="w-1/2 bg-white shadow-md sm:rounded-lg">
-                <p class="py-5 px-5 text-1xl font-audiowide">Players Choice</p>
+            <div class="bg-white shadow-lg rounded-lg lg:w-1/2">
+                <h3 class="text-xl px-4 py-4 font-audiowide">Players Choice</h3>
                 <div class="flex justify-center">
-                    <i class="far fa-sad-tear fa-10x place-self-center text-gray-200"></i>
+                    <i class="far fa-sad-tear fa-7x place-self-center text-gray-200"></i>
                 </div>
                 <p class="py-6 px-5">
                     Unfortunately we don't have enough ratings to select an amp model to feature, but you can help!
-                    <a href="#">Join our community</a> and start rating today!
+                    <a href="#" class="inline-link">Join our community</a> and start rating today!
                 </p>
             </div>
         </div>

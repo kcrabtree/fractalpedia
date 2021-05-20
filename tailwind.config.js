@@ -13,11 +13,9 @@ module.exports = {
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',
-
                 black: colors.black,
                 white: colors.white,
-                gray: colors.trueGray,
-                'gray-background': '#f7f8fc'
+                gray: colors.trueGray
             },
             fontFamily: {
                 audiowide: ['"Audiowide"', 'cursive'],
