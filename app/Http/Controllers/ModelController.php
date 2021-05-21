@@ -17,7 +17,7 @@ class ModelController extends Controller
     public function index()
     {
         return view('model.index', [
-            'models' => AmpModel::simplePaginate(3),
+            'models' => AmpModel::simplePaginate(10),
             'manufacturers' => Manufacturer::all(),
             'amplifiers' => Amplifier::all()
         ]);
