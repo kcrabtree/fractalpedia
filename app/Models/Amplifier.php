@@ -19,9 +19,9 @@ class Amplifier extends Model
         return $this->hasOne(AmplifierManual::class);
     }
 
-    public function models()
+    public function model()
     {
-        return $this->hasMany(AmpModel::class);
+        return $this->hasOne(AmpModel::class);
     }
 
     public function clips()

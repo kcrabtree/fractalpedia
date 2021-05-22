@@ -53,7 +53,8 @@ class ModelController extends Controller
     public function show(AmpModel $model)
     {
         return view('model.show', [
-            'model' => $model
+            'model' => $model,
+            'amp' => $model->amplifier
         ]);
     }
 
