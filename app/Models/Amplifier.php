@@ -2,12 +2,15 @@
 
 namespace App\Models;
 
+use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Amplifier extends Model
 {
-    use HasFactory;
+    const PAGINATION_COUNT = 10;
+
+    use HasFactory, Sluggable;
 
     public function manufacturer()
     {
@@ -19,13 +22,27 @@ class Amplifier extends Model
         return $this->hasOne(AmplifierManual::class);
     }
 
-    public function model()
+    public function models()
     {
-        return $this->hasOne(AmpModel::class);
+        return $this->hasMany(AmpModel::class);
     }
 
-    public function clips()
+    public function links()
     {
-        return $this->hasMany(AmplifierClip::class);
+        return $this->hasMany(AmplifierLink::class);
+    }
+
+    /**
+     * Return the sluggable configuration array for this model.
+     *
+     * @return array
+     */
+    public function sluggable(): array
+    {
+        return [
+            'slug' => [
+                'source' => 'name'
+            ]
+        ];
     }
 }

@@ -18,7 +18,10 @@ class CreateAmplifiersTable extends Migration
         Schema::create('amplifiers', function (Blueprint $table) {
             $table->id();
             $table->foreignId('manufacturer_id')->constrained();
+            $table->string('slug')->nullable();
             $table->string('name');
+            $table->text('synopsis');
+            $table->text('speaker_cab');
             $table->year('manufacture_start')->nullable();
             $table->year('manufacture_end')->nullable();
             $table->string('circuit')->nullable();
@@ -28,6 +31,8 @@ class CreateAmplifiersTable extends Migration
             $table->string('preamp_tubes')->nullable();
             $table->string('power_amp_tubes')->nullable();
             $table->string('tone_stack_location')->nullable();
+            $table->text('index_card_text');
+            $table->text('cliffism')->nullable();
             $table->timestamps();
         });
 
@@ -39,6 +44,8 @@ class CreateAmplifiersTable extends Migration
             $amp = new Amplifier();
             $amp->manufacturer_id = Manufacturer::where('name', $amplifier->manufacturer)->value('id');
             $amp->name = $amplifier->name;
+            $amp->synopsis = $amplifier->synopsis;
+            $amp->speaker_cab = $amplifier->speakerCab;
             $amp->manufacture_start = $amplifier->manufactureStart;
             $amp->manufacture_end = $amplifier->manufactureEnd;
             $amp->circuit = $amplifier->circuit;
@@ -48,7 +55,14 @@ class CreateAmplifiersTable extends Migration
             $amp->preamp_tubes = $amplifier->preampTubes;
             $amp->power_amp_tubes = $amplifier->powerAmpTubes;
             $amp->tone_stack_location = $amplifier->toneStackLocation;
+            $amp->index_card_text = $amplifier->indexCardText;
+            $amp->cliffism = $amplifier->cliffism;
             $amp->save();
+
+            $path = public_path('img/amps/'.$amp->slug);
+            if(!File::isDirectory(public_path($path))) {
+                File::makeDirectory($path, 0777, false, true);
+            }
         }
     }
 

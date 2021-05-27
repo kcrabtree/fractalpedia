@@ -2,81 +2,109 @@
     {
         "ampName": "1959SLP Super Lead Reissue",
         "href": "https://www.youtube.com/watch?v=O18CXmIPHVI&ab_channel=Woodwind%26Brasswind",
-        "title": "Marshall Plexi 1959SLP 100W Tube Guitar Head Standard"
+        "title": "Marshall Plexi 1959SLP 100W Tube Guitar Head Standard",
+        "linkType": "video"
     },
     {
         "ampName": "1959SLP Super Lead Reissue",
         "href": "https://www.youtube.com/watch?v=kv6IrhZD46Y&ab_channel=JohanSegeborn",
-        "title": "Johan Segeborn comparing 1959SLP vs 1987X"
+        "title": "Johan Segeborn comparing 1959SLP vs 1987X",
+        "linkType": "video"
     },
     {
         "ampName": "1959SLP Super Lead Reissue",
         "href": "https://forum.fractalaudio.com/threads/fractal-audio-amp-models-1959slp-marshall-slp1959-vintage-re-issue.111321/",
-        "title": "More videos, clips, and comments"
+        "title": "More videos, clips, and comments",
+        "linkType": "forum"
     },
     {
         "ampName": "1987X Reissue",
         "href": "https://www.youtube.com/watch?v=kv6IrhZD46Y&ab_channel=JohanSegeborn",
-        "title": "Johan Segeborn comparing 1959SLP vs 1987X"
+        "title": "Johan Segeborn comparing 1959SLP vs 1987X",
+        "linkType": "video"
     },
     {
         "ampName": "1987X Reissue",
         "href": "https://www.youtube.com/watch?v=xuj2kJvZ49o#t=45&ab_channel=JohanSegeborn",
-        "title": "Johan Segeborn Marshall 1987X - Better than the Real Thing?"
+        "title": "Johan Segeborn Marshall 1987X - Better than the Real Thing?",
+        "linkType": "video"
     },
     {
         "ampName": "1987X Reissue",
         "href": "https://forum.fractalaudio.com/threads/fractal-audio-amp-models-1987x-marshall-1987-vintage-re-issue.111362/",
-        "title": "More videos, clips, and comments"
+        "title": "More videos, clips, and comments",
+        "linkType": "forum"
+    },
+    {
+        "ampName": "5150-III",
+        "href": "https://www.evhgear.com/gear/amplifiers/head/5150iii-100w-head/2251000000",
+        "title": "EVH Amplification",
+        "linkType": "featured-resource"
     },
     {
         "ampName": "5150-III",
         "href": "https://www.youtube.com/watch?v=W46XQ-grJEc#t=30&ab_channel=PremierGuitar",
-        "title": "Premier Guitar Monsters of High Gain"
+        "title": "Premier Guitar Monsters of High Gain",
+        "linkType": "video"
     },
     {
         "ampName": "5150-III",
         "href": "https://forum.fractalaudio.com/threads/fractal-audio-amp-models-5153-evh-5150-iii.111404/",
-        "title": "More videos, clips, and comments"
+        "title": "More videos, clips, and comments",
+        "linkType": "video"
     },
     {
         "ampName": "1959 Tweed Bassman",
         "href": "https://www.youtube.com/watch?v=Y0r1kVXSX3Q&ab_channel=mpunch51",
-        "title": "Original 1959 Fender Bassman Amp with Telecaster"
+        "title": "Original 1959 Fender Bassman Amp with Telecaster",
+        "linkType": "video"
     },
     {
         "ampName": "1959 Tweed Bassman",
         "href": "https://www.youtube.com/watch?v=lqCksO7X5yI&ab_channel=millstap",
-        "title": "Millstap Hendrix Jam on a Vintage 1959 Bassman"
+        "title": "Millstap Hendrix Jam on a Vintage 1959 Bassman",
+        "linkType": "video"
     },
     {
         "ampName": "1959 Tweed Bassman",
         "href": "https://www.youtube.com/watch?feature=player_detailpage&v=o74oNozUVVk#t=53&ab_channel=Guitarist",
-        "title": "Rory Gallagher's Bassman"
+        "title": "Rory Gallagher's Bassman",
+        "linkType": "video"
     },
     {
         "ampName": "1959 Tweed Bassman",
         "href": "https://www.youtube.com/watch?v=FPgvFoWelWM&ab_channel=WildwoodGuitars",
-        "title": "Gibson Les Paul '50s Tribute Through a Vintage 1958 Bassman"
+        "title": "Gibson Les Paul '50s Tribute Through a Vintage 1958 Bassman",
+        "linkType": "video"
     },
     {
         "ampName": "1959 Tweed Bassman",
         "href": "https://www.youtube.com/watch?v=vgqrOCUQzH0&ab_channel=JohanSegeborn",
-        "title": "The Greatest Guitar Amp of All Time - Original Fender 1959 Bassman"
+        "title": "The Greatest Guitar Amp of All Time - Original Fender 1959 Bassman",
+        "linkType": "video"
     },
     {
         "ampName": "1959 Tweed Bassman",
         "href": "https://forum.fractalaudio.com/threads/fractal-audio-amp-models-59-bassguy-59-fender-tweed-bassman-5f6-a.111275/",
-        "title": "More videos, clips, and comments"
+        "title": "More videos, clips, and comments",
+        "linkType": "forum"
     },
     {
         "ampName": "Tweed Champ",
         "href": "https://www.youtube.com/watch?v=4nvnHaQuENU&ab_channel=lwvintageguitars",
-        "title": "1957 Fender Champ - L&W Vintage Guitars Demo"
+        "title": "1957 Fender Champ - L&W Vintage Guitars Demo",
+        "linkType": "video"
     },
     {
         "ampName": "Tweed Champ",
         "href": "https://forum.fractalaudio.com/threads/fractal-audio-amp-models-5f1-tweed-and-5f1-tweed-ec-fender-champ-and-vibro-champ.111067/",
-        "title": "More videos, clips, and comments"
+        "title": "More videos, clips, and comments",
+        "linkType": "video"
+    },
+    {
+        "ampName": "Tweed Champ",
+        "href": "https://www.fender.com/articles/gear/indispensable-undeniable-the-legacy-of-the-champ",
+        "title": "History of the Champ",
+        "linkType": "article"
     }
 ]

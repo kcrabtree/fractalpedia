@@ -8,8 +8,6 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <!-- TODO: Decide on Lato or Open Sans and remove unused font imports, update tailwind config -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Lato&display=swap" rel="stylesheet">
 
@@ -22,15 +20,15 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="font-lato antialiased bg-gray-100 text-gray-900 text-md sm:text-lg">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen">
             @include('layouts.navigation')
-
-            <!-- Page Content -->
             <main>
-                {{ $slot }}
+                <div class="max-w-7xl mx-auto lg:px-8 py-10">
+                    <x-beta-banner></x-beta-banner>
+                    {{ $slot }}
+                </div>
             </main>
         </div>
-
         <livewire:scripts />
     </body>
 </html>

@@ -2,6 +2,8 @@
     {
         "name": "1959SLP Super Lead Reissue",
         "manufacturer": "Marshall",
+        "synopsis": "Reissue of a '60s Marshall Superlead, a very desirable amp.",
+        "speakerCab": "4x12 Marshall cabinet with Celestion G12M (greenbacks) or G12H speakers",
         "manufactureStart": 1993,
         "manufactureEnd": 1995,
         "circuit": null,
@@ -10,11 +12,15 @@
         "negativeFeedback": true,
         "preampTubes": "ECC83",
         "powerAmpTubes": "EL34",
-        "toneStackLocation": "POST"
+        "toneStackLocation": "POST",
+        "indexCardText": "Models of a 100 watt Super Lead Plexi Reissue.",
+        "cliffism": "My settings for a 'typical' plexi tone are bass 2, mid 8, treble 7.5, adjust presence to taste. Or, just crank everything - that's what Eddie Van Halen did!"
     },
     {
         "name": "1987X Reissue",
         "manufacturer": "Marshall",
+        "synopsis": "Reissue of a '70s era JMP 50w plexi that's more aggressive than the '60s plexis.",
+        "speakerCab": "4x12 Marshall cabinet with Celestion G12M (greenbacks) or G12H speakers",
         "manufactureStart": 1990,
         "manufactureEnd": 1999,
         "circuit": null,
@@ -23,11 +29,15 @@
         "negativeFeedback": true,
         "preampTubes": "ECC83",
         "powerAmpTubes": "EL34",
-        "toneStackLocation": "POST"
+        "toneStackLocation": "POST",
+        "indexCardText": "Models of a 1987X 50 watt Plexi Reissue.",
+        "cliffism": "The 1987X doesn't have the 0.68uF cap on the last triode which gives it a smoother distortion."
     },
     {
         "name": "5150-III",
         "manufacturer": "EVH",
+        "synopsis": "Eddie Van Halen's signature amp, popular with high gain players.",
+        "speakerCab": "EVH 4x12 or 2x12 cabinet with G12EVH speakers",
         "manufactureStart": null,
         "manufactureEnd": null,
         "circuit": null,
@@ -36,11 +46,15 @@
         "negativeFeedback": true,
         "preampTubes": "12AX7A",
         "powerAmpTubes": "6L6/5881",
-        "toneStackLocation": "POST"
+        "toneStackLocation": "POST",
+        "indexCardText": "Models of all channels of Eddie Van Halen's signature amp.",
+        "cliffism": "It's a very good amp. The build quality is great and the design is very good. It is similar to the previous versions but voiced a bit different. Personally, I think all of the 5150's have more gain stages than necessary which just makes for unnecessary failure points but the “OMG, this amp has sooo many toobz it must sound awesome” marketing makes it understandable. It's incredibly heavy though."
     },
     {
         "name": "1959 Tweed Bassman",
         "manufacturer": "Fender",
+        "synopsis": "The 'narrow panel' version of a legendary amp that's very collectible.",
+        "speakerCab": "Four 10\" Jensen P10Q or P10R speakers",
         "manufactureStart": 1959,
         "manufactureEnd": 1959,
         "circuit": "5F6-A",
@@ -49,11 +63,15 @@
         "negativeFeedback": true,
         "preampTubes": "12AX7A (Syl)",
         "powerAmpTubes": "6L6/5881",
-        "toneStackLocation": "POST"
+        "toneStackLocation": "POST",
+        "indexCardText": "Model of a holy grail '59 Bassman, the 'grandfather of rock and roll'.",
+        "cliffism": null
     },
     {
         "name": "Tweed Champ",
         "manufacturer": "Fender",
+        "synopsis": "The 'narrow panel' version of the iconic studio staple, allegedly used to record such classics as Layla and Rocky Mountain Way.",
+        "speakerCab": "Single 6\" or 8\" Alino speaker (Jensen P8T, Oxford 8EV",
         "manufactureStart": 1958,
         "manufactureEnd": 1964,
         "circuit": "5F1",
@@ -62,6 +80,8 @@
         "negativeFeedback": true,
         "preampTubes": "12AX7A (Syl)",
         "powerAmpTubes": "6V6",
-        "toneStackLocation": "PRE"
+        "toneStackLocation": "PRE",
+        "indexCardText": "Model of Fender's small practice amp from the Tweed era.",
+        "cliffism": null
     }
 ]

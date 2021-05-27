@@ -10,6 +10,14 @@ class AmpModel extends Model
 {
     use HasFactory, Sluggable;
 
+    protected $casts = [
+        'tips' => 'array',
+        'third_party_cabs' => 'array',
+        'yek_quotes' => 'array',
+        'cliff_quotes' => 'array',
+        'control_mappings' => 'array'
+    ];
+
     public function amplifier()
     {
         return $this->belongsTo(Amplifier::class);

@@ -16,11 +16,32 @@ class ModelController extends Controller
      */
     public function index()
     {
-        return view('model.index', [
-            'models' => AmpModel::simplePaginate(10),
-            'manufacturers' => Manufacturer::all(),
-            'amplifiers' => Amplifier::all()
-        ]);
+        // TODO: pretty sure this won't be used
+//        $manufacturer;
+//        $amplifiers;
+//
+//        if(request()->has('manufacturer')) {
+//            $amplifiers = Amplifier::where('manufacturer_id', '=', request('manufacturer'))->get();
+//        }
+//        $filters = ['manufacturer', 'amplifier'];
+//        $filterVals = [
+//            'manufacturer' => null,
+//            'amplifier' => null
+//        ];
+//
+//        foreach ($filters as $filter) {
+//            if(request()->has($filter)) {
+//                $filterVals =
+//            }
+//        }
+
+//        return view('model.index', [
+//            'models' => AmpModel::paginate(10),
+//            'manufacturers' => Manufacturer::with('amplifiers')->has('amplifiers')->get(),
+//            'amplifiers' => request()->has('manufacturer') ?
+//                Amplifier::where('manufacturer_id', '=', request('manufacturer'))->get() :
+//                Amplifier::all()
+//        ]);
     }
 
     /**
@@ -54,7 +75,7 @@ class ModelController extends Controller
     {
         return view('model.show', [
             'model' => $model,
-            'amp' => $model->amplifier
+            'amp' => $model->amplifier,
         ]);
     }
 

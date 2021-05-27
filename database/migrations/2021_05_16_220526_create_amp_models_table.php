@@ -21,13 +21,12 @@ class CreateAmpModelsTable extends Migration
             $table->string('slug')->nullable();
             $table->string('name');
             $table->text('description');
-            $table->text('tips')->nullable();
-            $table->text('speaker_cab')->nullable();
-            $table->string('stock_cabs')->nullable();
-            $table->text('amp_controls');
-            $table->text('yek_thought')->nullable();
-            $table->text('cliff_thought')->nullable();
-            $table->text('highlight_text');
+            $table->text('tips');
+            $table->text('fractal_cabs')->nullable();
+            $table->text('third_party_cabs')->nullable();
+            $table->text('yek_quotes')->nullable();
+            $table->text('cliff_quotes')->nullable();
+            $table->text('control_mappings');
             $table->timestamps();
         });
 
@@ -40,12 +39,11 @@ class CreateAmpModelsTable extends Migration
             $m->name = $model->name;
             $m->description = $model->description;
             $m->tips = $model->tips;
-            $m->speaker_cab = $model->speakerCab;
-            $m->stock_cabs = $model->stockCabs;
-            $m->amp_controls = $model->ampControls;
-            $m->yek_thought = $model->yekThought;
-            $m->cliff_thought = $model->cliffThought;
-            $m->highlight_text = $model->highlightText;
+            $m->fractal_cabs = $model->fractalCabs;
+            $m->third_party_cabs = $model->thirdPartyCabs;
+            $m->yek_quotes = $model->yekQuotes;
+            $m->cliff_quotes = $model->cliffQuotes;
+            $m->control_mappings = $model->controlMappings;
             $m->save();
         }
     }

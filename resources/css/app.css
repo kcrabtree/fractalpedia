@@ -3,5 +3,5 @@
 @import 'tailwindcss/utilities';
 
 .inline-link {
-    @apply underline hover:text-indigo-500;
+    @apply text-indigo-600 hover:text-indigo-900;
 }

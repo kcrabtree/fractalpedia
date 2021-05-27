@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AmplifierController;
 use App\Http\Controllers\ModelController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,13 +19,14 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/models', [ModelController::class, 'index'])->name('model.index');
+Route::get('/amplifiers', [AmplifierController::class, 'index'])->name('amplifier.index');
+Route::get('/amplifiers/{amplifier:slug}', [AmplifierController::class, 'show'])->name('amplifier.show');
 
 Route::get('/models/{model:slug}', [ModelController::class, 'show'])->name('model.show');
 
-Route::get('/cabs', function () {
-    return view('cabs');
-})->name('cabs');
+Route::get('/impulse-responses', function () {
+    return view('impulse-responses');
+})->name('impulse-responses');
 
 Route::get('/tips', function () {
     return view('tips-and-tricks');

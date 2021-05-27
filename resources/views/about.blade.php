@@ -1,6 +1,6 @@
 <x-app-layout>
-    <div class="mt-1 py-8">
-        <div class="lg:max-w-7xl mx-4 lg:mx-auto sm:px-2 lg:px-8 text-semibold space-y-4">
+    <div class="">
+        <div class="max-w-7xl mx-4 lg:mx-auto space-y-4 text-base">
             <p>
                 The inspiration for this project came from
                 <a
@@ -20,8 +20,8 @@
                 I truly hope this site is useful to the community and evolves into a comprehensive resource over time.
                 If you're part of the Fractal family, please consider registering for a free account and helping us grow!
             </p>
-            <h2 class="text-2xl text-red-900 text-center md:mx-auto text-bold pt-12">- Disclaimer -</h2>
-            <p>
+            <h2 class="text-2xl text-red-900 text-center md:mx-auto text-bold pt-8">- Disclaimer -</h2>
+            <p class="text-semibold">
                 As with the original guide, the contents of this site have not been submitted to Fractal Audio Systems
                 for verification or approval. The contents herein are based on publicly available resources, personal
                 experiences, and community feedback. FractalPedia is not affiliated with Fractal Audio Systems and does

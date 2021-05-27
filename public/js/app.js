@@ -21064,9 +21064,12 @@ __webpack_require__.r(__webpack_exports__);
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
   \*******************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nSyntaxError\n\n(12:24) /var/www/html/resources/css/app.css The `text-neutral-500` class does not exist, but `text-purple-500` does. If you're sure that `text-neutral-500` exists, make sure that any `@import` statements are being properly processed before Tailwind CSS sees your CSS, as `@apply` can only be used for classes in the same CSS tree.\n\n \u001b[90m 10 | \u001b[39m    font-size\u001b[33m:\u001b[39m 5rem\u001b[33m;\u001b[39m\n \u001b[90m 11 | \u001b[39m    right\u001b[33m:\u001b[39m 100%\u001b[33m;\u001b[39m\n\u001b[1m\u001b[31m>\u001b[39m\u001b[22m\u001b[90m 12 | \u001b[39m    \u001b[36m@apply\u001b[39m mr-2 hidden text-neutral-500 absolute top-0 leading-none\u001b[33m;\u001b[39m\n \u001b[90m    | \u001b[39m                       \u001b[1m\u001b[31m^\u001b[39m\u001b[22m\n \u001b[90m 13 | \u001b[39m\u001b[33m}\u001b[39m\n \u001b[90m 14 | \u001b[39m\n\n    at processResult (/var/www/html/node_modules/webpack/lib/NormalModule.js:690:19)\n    at /var/www/html/node_modules/webpack/lib/NormalModule.js:792:5\n    at /var/www/html/node_modules/loader-runner/lib/LoaderRunner.js:399:11\n    at /var/www/html/node_modules/loader-runner/lib/LoaderRunner.js:251:18\n    at context.callback (/var/www/html/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.loader (/var/www/html/node_modules/postcss-loader/dist/index.js:94:7)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -21374,6 +21377,7 @@ process.umask = function() { return 0; };
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
+/******/ 			"css/app": 0,
 /******/ 			"css/style": 0
 /******/ 		};
 /******/ 		
@@ -21422,9 +21426,9 @@ process.umask = function() { return 0; };
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/style"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/style"], () => (__webpack_require__("./resources/scss/style.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/style"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/style"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app","css/style"], () => (__webpack_require__("./resources/scss/style.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app","css/style"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

@@ -20,7 +20,6 @@ module.exports = {
             fontFamily: {
                 audiowide: ['"Audiowide"', 'cursive'],
                 lato: ['"Lato"', 'sans-serif'],
-                sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
             },
         },
     },
